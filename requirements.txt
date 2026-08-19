@@ -1,0 +1,8 @@
+astropy
+astroquery
+matplotlib
+numpy
+pandas
+pillow
+requests
+scipy

@@ -1,0 +1,41 @@
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local dependency/vendor folders
+.codex_deps/
+.venv/
+venv/
+env/
+
+# Runtime data and generated outputs
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.log
+*.out.log
+*.err.log
+horizons_cache_*_5d.csv
+*.parquet
+*.fits
+*.fit
+*.fz
+
+# Local config/secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
